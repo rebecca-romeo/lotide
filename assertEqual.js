@@ -22,8 +22,8 @@
 // Version 3 - refactored using ternary operator to create cleaner more readable code
 const assertEqual = function(actual, expected) {
   (actual === expected) ?
-    console.log("✅✅✅ Assertion passed: " + actual + " === " + expected) :
-    console.log("🛑🛑🛑 Assertion failed: " + actual + " !== " + expected);
+    console.log(`✅✅✅ Assertion passed: ${actual} === ${expected}`) :
+    console.log(`🛑🛑🛑 Assertion failed: ${actual} !== ${expected}`);
 };
 
 // TEST CODE
