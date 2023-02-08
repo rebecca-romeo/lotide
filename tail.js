@@ -7,8 +7,8 @@ const assertEqual = function(actual, expected) {
 function tail(arr) {
   // return the tail of the array only
   return (arr.length > 1) ?
-  arr.slice(1) :
-  arr
+    arr.slice(1) :
+    arr;
 }
 
 // console.log(tail([1,2,4,5]))
