@@ -1,6 +1,3 @@
-
-
-let array = [1, 40, 9]
 function head(arr) {
   return arr[0]
 }
