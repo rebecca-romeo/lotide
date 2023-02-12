@@ -1,4 +1,5 @@
-// Implement assertEqual Lotide Assignment
+// ✅ assignment complete
+  // ✅ assertEquals function
 
 
 // FUNCTION IMPLEMENTATION
