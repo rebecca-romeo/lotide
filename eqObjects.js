@@ -1,6 +1,6 @@
 // ✅ assignment complete
-  // ✅ eqObjects function
-  // ✅ assertEquals tests
+// ✅ eqObjects function
+// ✅ assertEquals tests
 
 const eqArrays = function(array1, array2) {
   // loop through the arrays
