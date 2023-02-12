@@ -1,3 +1,7 @@
+// ✅ assignment complete
+  // ✅ eqObjects function
+  // ✅ assertEquals tests
+
 const eqArrays = function(array1, array2) {
   // loop through the arrays
   for (let i = 0; i < array1.length; i++) {
@@ -17,7 +21,7 @@ const assertEquals = function(actual, expected) {
 };
 
 // Returns true if both objects have identical keys with identical values.
-// Otherwise you get back a big fat false!
+// Otherwise you get back false!
 const eqObjects = function(object1, object2) {
   // check if the objects have the same amount of keys
   if (Object.keys(object1).length !== Object.keys(object2).length) {
@@ -33,9 +37,9 @@ const eqObjects = function(object1, object2) {
       }
       // check if any do not match the object2 keys
     } else if (object1[key] !== object2[key]) {
-        console.log("false");
-        return false;
-      }
+      console.log("false");
+      return false;
+    }
   }
   // if key lengths are equal && and all keys match = true
   console.log("true");
