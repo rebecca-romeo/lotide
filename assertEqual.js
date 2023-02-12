@@ -1,5 +1,5 @@
 // ✅ assignment complete
-  // ✅ assertEquals function
+// ✅ assertEquals function
 
 
 // FUNCTION IMPLEMENTATION
