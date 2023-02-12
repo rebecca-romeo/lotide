@@ -1,6 +1,6 @@
 // ✅ assignment complete
-  // ✅ without function
-  // ✅ assertArraysEqual tests
+// ✅ without function
+// ✅ assertArraysEqual tests
 
 // FUNCTION: assertArraysEqual
 // takes in two arrays and returns console.log
