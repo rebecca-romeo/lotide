@@ -1,6 +1,6 @@
 // ✅ assignment complete
-  // ✅ countLetters function
-  // ✅ assertEqual tests
+// ✅ countLetters function
+// ✅ assertEqual tests
 
 const assertEqual = function(actual, expected) {
   (actual === expected) ?
