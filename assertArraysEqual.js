@@ -1,9 +1,9 @@
 // ✅ assignment complete
-  // ✅ use eqArrays
-  // ✅ assertArraysEqual function
+// ✅ use eqArrays
+// ✅ assertArraysEqual function
 
 
-function eqArrays(array1, array2) {
+const eqArrays = function(array1, array2) {
   // loop through the arrays
   for (let i = 0; i < array1.length; i++) {
     // Check if indexes do not match
@@ -14,7 +14,7 @@ function eqArrays(array1, array2) {
   }
   console.log('true');
   return true;
-}
+};
 
 // Implement assertArraysEqual which will take in two arrays and console.log an appropriate message to the console.
 const assertArraysEqual = function(array1, array2) {
