@@ -1,11 +1,11 @@
 // ✅ assignment complete
-  // ✅ head function
-  // ✅ assertEqual tests
+// ✅ head function
+// ✅ assertEqual tests
 
 // Function that returns just the head at index 0
-function head(arr) {
+const head = function(arr) {
   return arr[0];
-}
+};
 
 
 // console.log(head(array))
