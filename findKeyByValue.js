@@ -1,6 +1,6 @@
 // ✅ assignment complete
-  // ✅ findKeyByValue function
-  // ✅ assertEqual test
+// ✅ findKeyByValue function
+// ✅ assertEqual test
 
 const assertEqual = function(actual, expected) {
   (actual === expected) ?
@@ -25,7 +25,7 @@ const findKeyByValue = function(object, value) {
 
 
 const bestTVShowsByGenre = {
-  sci_fi: "The Expanse",
+  sciFi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
   drama:  "The Wire"
 };
