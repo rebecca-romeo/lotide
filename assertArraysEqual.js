@@ -1,3 +1,8 @@
+// ✅ assignment complete
+  // ✅ use eqArrays
+  // ✅ assertArraysEqual function
+
+
 function eqArrays(array1, array2) {
   // loop through the arrays
   for (let i = 0; i < array1.length; i++) {
