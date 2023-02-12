@@ -1,3 +1,7 @@
+// ✅ assignment complete
+  // ✅ without function
+  // ✅ assertArraysEqual tests
+
 // FUNCTION: assertArraysEqual
 // takes in two arrays and returns console.log
 const assertArraysEqual = function(array1, array2) {
@@ -39,14 +43,14 @@ const without = function(source, itemsToRemove) {
 let results = without([1, 2, 3], [1]); // => [2, 3]
 console.log(results);
 
-console.log(without(["1", "2", "3"], [1, 2, "3"]));
+console.log(without(["1", "2", "3"], [1, 2, "3"])); // => ['1', '2']
 
 
 // TEST: assertArraysEqual to check if new array === expected result
-assertArraysEqual(without([1, 2, 3], [1]), [2, 3]);
+assertArraysEqual(without([1, 2, 3], [1]), [2, 3]); // => true
 
 // Make sure the original array was not altered by the without function
 const words = ["hello", "world", "lighthouse"];
-console.log(without(words, ["lighthouse"]));
-assertArraysEqual(words, ["hello", "world", "lighthouse"]);
+console.log(without(words, ["lighthouse"])); // => ['hello, 'world']
+assertArraysEqual(words, ["hello", "world", "lighthouse"]); // => true
 
