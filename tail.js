@@ -1,6 +1,6 @@
 // ✅ assignment complete
-  // ✅ tail function
-  // ✅ assertEqual tests
+// ✅ tail function
+// ✅ assertEqual tests
 
 const assertEqual = function(actual, expected) {
   (actual === expected) ?
@@ -9,10 +9,10 @@ const assertEqual = function(actual, expected) {
 };
 
 // a function to return the tail of the array only
-function tail(arr) {
+const tail = function(arr) {
   // if the length is greater than 1, slice the head, otherwise just return arr
   return (arr.length > 1) ? arr.slice(1) : arr;
-}
+};
 
 // console.log(tail([1,2,4,5]))
 // console.log(tail([1]))
