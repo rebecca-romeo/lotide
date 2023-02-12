@@ -1,5 +1,10 @@
+// ✅ assignment complete
+  // ✅ head function
+  // ✅ assertEqual tests
+
+// Function that returns just the head at index 0
 function head(arr) {
-  return arr[0]
+  return arr[0];
 }
 
 
