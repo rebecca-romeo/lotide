@@ -1,14 +1,17 @@
+// ✅ assignment complete
+  // ✅ tail function
+  // ✅ assertEqual tests
+
 const assertEqual = function(actual, expected) {
   (actual === expected) ?
     console.log(`✅✅✅ Assertion passed: ${actual} === ${expected}`) :
     console.log(`🛑🛑🛑 Assertion failed: ${actual} !== ${expected}`);
 };
 
+// a function to return the tail of the array only
 function tail(arr) {
-  // return the tail of the array only
-  return (arr.length > 1) ?
-    arr.slice(1) :
-    arr;
+  // if the length is greater than 1, slice the head, otherwise just return arr
+  return (arr.length > 1) ? arr.slice(1) : arr;
 }
 
 // console.log(tail([1,2,4,5]))
