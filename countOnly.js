@@ -1,4 +1,9 @@
-//t would be nice to make use of our handy assertEqual function. Copy it from its source file and paste it in to the top of countOnly.js.
+// ✅ assignment complete
+// ✅ countOnly function
+// ✅ assertEqual tests
+
+
+//It would be nice to make use of our handy assertEqual function. Copy it from its source file and paste it in to the top of countOnly.js.
 const assertEqual = function(actual, expected) {
   (actual === expected) ?
     console.log(`✅✅✅ Assertion passed: ${actual} === ${expected}`) :
@@ -8,16 +13,15 @@ const assertEqual = function(actual, expected) {
 
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count
-const countOnly = function(allNames, itemsToCount) {
+const countOnly = function(allItems, itemsToCount) {
   const results = {};
 
-  for (const names of allNames) {
-    if (itemsToCount[names]) {
-      if (results[names]) {
-        results[names] += 1;
-      } else {
-        results[names] = 1;
-      }
+  // loop through each name
+  for (const item of allItems) {
+    // if the name matches a name inside the itemsToCount object, continue to next conditional
+    if (itemsToCount[item]) {
+      // if the name matches a name in results, add 1 : add the name to results key with a value of 1
+      (results[item]) ? results[item] += 1 : results[item] = 1;
     }
   }
 
@@ -36,8 +40,11 @@ const firstNames = [
   "Joe"
 ];
 
+// take a list of names, check them against the object of names
+// if the list name matches the object name, add it to a new object
 const result1 = countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true, "Agouhanna": false });
 
+// compare the new object names with the second argument to see if it matches
 assertEqual(result1["Jason"], 1);
 assertEqual(result1["Karima"], undefined);
 assertEqual(result1["Fang"], 2);
