@@ -1,6 +1,6 @@
 // 🛑 assignment incomplete
-  // ✅ middle function
-  // 🛑 assertArraysEqual & eqArrays
+// ✅ middle function
+// 🛑 assertArraysEqual & eqArrays
 
 const middle = function(array) {
   let middleOfArray = [];
