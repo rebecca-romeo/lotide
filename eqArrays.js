@@ -1,12 +1,5 @@
-// ✅ assignment complete
 // ✅ eqArrays function
-// ✅ assertEqual tests
-
-const assertEqual = function(actual, expected) {
-  (actual === expected) ?
-    console.log(`✅✅✅ Assertion passed: ${actual} === ${expected}`) :
-    console.log(`🛑🛑🛑 Assertion failed: ${actual} !== ${expected}`);
-};
+// ✅ modular testing
 
 // Function that checks the index of 2 arrays to see if they match
 const eqArrays = function(array1, array2) {
@@ -21,10 +14,4 @@ const eqArrays = function(array1, array2) {
   return true;
 };
 
-eqArrays([1, 2, 3], [1, 2, 3]); // => true
-eqArrays([1, 2, 3], [3, 2, 1]); // => false
-
-eqArrays(["1", "2", "3"], ["1", "2", "3"]); // => true
-eqArrays(["1", "2", "3"], ["1", "2", 3]); // => false
-
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
+module.exports = eqArrays;
