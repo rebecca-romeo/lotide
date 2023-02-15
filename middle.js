@@ -1,6 +1,6 @@
-// 🛑 assignment incomplete
+// ✅ complete
 // ✅ middle function
-// 🛑 assertArraysEqual & eqArrays
+// ✅ modular testing
 
 const middle = function(array) {
   let middleOfArray = [];
@@ -15,13 +15,9 @@ const middle = function(array) {
 
 
   if (array.length % 2 === 1) {
-    return middleOfArray = array[Math.floor(array.length / 2)];
+    middleOfArray.push(array[Math.floor(array.length / 2)]);
   }
   return middleOfArray;
 };
 
-
-console.log(middle([1, 2, 3, 4, 5, 6, 7, 8]));
-console.log(middle([1, 2, 3, 4, 5, 6, 7]));
-console.log(middle([1, 2, 3, 4]));
-console.log(middle([1, 2]));
+module.exports = middle;
