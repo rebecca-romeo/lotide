@@ -31,3 +31,5 @@ const result = countLetters("testing this");
 
 // check to see if the amount of t's === 2
 assertEqual(result["t"], 3);
+
+module.exports = countLetters;

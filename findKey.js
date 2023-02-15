@@ -40,3 +40,4 @@ assertEqual(checkResults1, "noma"); // => pass
 assertEqual(checkResults1, "Blue Hill"); // => fail
 assertEqual(checkResults2, undefined); // => pass
 
+module.exports = findKey;

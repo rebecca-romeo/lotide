@@ -63,3 +63,5 @@ assertArraysEqual(letterPositions("testing").t, [0, 3]); // => true
 //   e: [9, 16, 22],
 //   n: [12]
 // }
+
+module.exports = letterPositions;

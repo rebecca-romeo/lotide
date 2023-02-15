@@ -54,3 +54,4 @@ const words = ["hello", "world", "lighthouse"];
 console.log(without(words, ["lighthouse"])); // => ['hello, 'world']
 assertArraysEqual(words, ["hello", "world", "lighthouse"]); // => true
 
+module.exports = without;

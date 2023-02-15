@@ -63,3 +63,5 @@ console.log(results3);
 assertArraysEqual(results1,[ 'g', 'c', 't', 'm', 't' ]);
 assertArraysEqual(results2,[ 'g', 'c', 't', 'm', 't' ]);
 assertArraysEqual(results3,[ 'g', 'c', 't', 'm', 't' ]);
+
+module.exports = map;
