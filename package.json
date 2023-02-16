@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@rebecca-r/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/rebecca-romeo/lotide.git"
   },
-  "author": "",
+  "author": "Rebecca Romeo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rebecca-romeo/lotide/issues"
