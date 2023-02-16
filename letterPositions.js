@@ -13,11 +13,9 @@ const eqArrays = function(array1, array2) {
   for (let i = 0; i < array1.length; i++) {
     // Check if indexes do not match
     if (array1[i] !== array2[i]) {
-      console.log('false');
       return false;
     }
   }
-  console.log('true');
   return true;
 };
 
@@ -45,8 +43,6 @@ console.log(letterPositions("hello"));
 // => { h: [ 0 ], e: [ 1 ], l: [ 2, 3 ], o: [ 4 ] }
 
 assertArraysEqual(letterPositions("testing").t, [0, 3]); // => true
-
-
 
 
 // Expected structure example:

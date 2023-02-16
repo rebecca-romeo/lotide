@@ -2,7 +2,7 @@
 const assertEqual = require('../assertEqual');
 
 // IMPORT eqArrays function
-const eqArrays = require('../eqArrays')
+const eqArrays = require('../eqArrays');
 
 
 // TEST CODE

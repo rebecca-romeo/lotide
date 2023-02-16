@@ -8,11 +8,9 @@ const eqArrays = function(actual, expected) {
   for (let i = 0; i < actual.length; i++) {
     // Check if indexes do not match
     if (actual[i] !== expected[i]) {
-      console.log('false');
       return false;
     }
   }
-  console.log('true');
   return true;
 };
 
@@ -22,20 +20,13 @@ const assertArraysEqual = function(actual, expected) {
 };
 
 
-
 // Our map function will take in two arguments:
-
 // An array to map
 // A callback function
-
 // The map function will return a new array based on the results of the callback function.
 
 // Collection of words
 const words = ["ground", "control", "to", "major", "tom"];
-
-// This works:
-// const results1 = words.map(word => word[0]);
-// console.log(results1);
 
 // Let's write our own map function
 const map = function(array, callback) {

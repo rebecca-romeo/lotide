@@ -7,9 +7,4 @@ const tail = function(arr) {
   return (arr.length > 1) ? arr.slice(1) : arr;
 };
 
-// console.log(tail([1,2,4,5]))
-// console.log(tail([1]))
-
-
-
 module.exports = tail;

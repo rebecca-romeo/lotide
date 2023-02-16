@@ -8,12 +8,12 @@ describe("#middle", () => {
   it("returns 2 for [1, 2, 3]", () => {
     assert.deepEqual(middle([1, 2, 3]), [2]);
   });
-    // ensure even number arrays return 2 middle values
+  // ensure even number arrays return 2 middle values
   it("returns 2, 3 for [1, 2, 3, 4]", () => {
     assert.deepEqual(middle([1, 2, 3, 4]), [2, 3]);
   });
-    // ensure arrays with no middle value return an empty array
+  // ensure arrays with no middle value return an empty array
   it("returns [] for [1, 2]", () => {
-    assert.deepEqual(middle([1, 2]), [])
-  })
+    assert.deepEqual(middle([1, 2]), []);
+  });
 });

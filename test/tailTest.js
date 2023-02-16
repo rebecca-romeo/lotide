@@ -6,8 +6,6 @@ const assert = require('chai').assert;
 const tail = require('../tail');
 
 
-
-
 // TESTS
 const result = tail(["Hello", "Lighthouse", "Labs"]);
 
@@ -20,7 +18,7 @@ describe("#tail", () => {
   it("returns 'Lighthouse' for result[0]", () => {
     assert.deepEqual(result[0], 'Lighthouse');
   });
-   // ensure second element is "Labs"
+  // ensure second element is "Labs"
   it("returns 'Labs' for result[1]", () => {
     assert.deepEqual(result[1], 'Labs');
   });
