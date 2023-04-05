@@ -28,20 +28,16 @@ const assertArraysEqual = function(actual, expected) {
 // even numbers = [1, 2]
 
 const middle = function(array) {
-  let middleNum = [];
-  if (array.length < 3) {
-    return middleNum;
-  }
+  if (array.length < 3) return [];
 
   if (array.length % 2 === 0) {
-    middleNum.push(array[((array.length / 2) - 1)])
-    middleNum.push(array[array.length / 2]);
-    return middleNum
+    return [array[((array.length / 2) - 1)], array[array.length / 2]]
+  } else {
+    return [array[Math.floor(array.length / 2)]]
   }
 
-  middleNum.push(array[Math.floor(array.length / 2)])
-  return middleNum
 }
+
 
 
 // TESTS
