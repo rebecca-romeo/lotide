@@ -20,7 +20,7 @@ const assertArraysEqual = function(actual, expected) {
   return (eqArrays(actual, expected)) ?
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`) :
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected} `);
-}
+};
 
 // ---------------------------------------------------------------
 // without function:
@@ -37,7 +37,7 @@ const assertArraysEqual = function(actual, expected) {
 // }
 
 // Version 2 - Refactored:
-const without = (source, itemsToRemove) => source.filter(item => !itemsToRemove.includes(item))
+const without = (source, itemsToRemove) => source.filter(item => !itemsToRemove.includes(item));
 
 
 // ---------------------------------------------------------------
