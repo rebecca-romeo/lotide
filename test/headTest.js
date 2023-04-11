@@ -15,16 +15,19 @@ const head = require('../head');
 // assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hi");
 
 describe("#head", () => {
-  it("returns 1 for [1, 2, 3]", () => {
-    assert.strictEqual(head([1, 2, 3]), 1);
+  // empty array
+  it("returns undefined for []", () => {
+    assert.strictEqual(head([]), undefined);
   });
 
+  // length = 1
   it("returns '5' for ['5']", () => {
     assert.strictEqual(head(['5']), '5');
   });
 
-  it("returns undefined for []", () => {
-    assert.strictEqual(head([]), undefined);
+  // length > 1
+  it("returns 1 for [1, 2, 3]", () => {
+    assert.strictEqual(head([1, 2, 3]), 1);
   });
 
   it("returns 'hello' for ['hello', 'lighthouse, 'labs']", () => {
